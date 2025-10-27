@@ -2,11 +2,11 @@
 <html>
 <body>
 
-<h1 align="center">🤖 Artificial Intelligence Course Overview</h1>
+<h1 align="center">Artificial Intelligence Course</h1>
 
 <hr>
 
-<h2>📌 Purpose of the Course</h2>
+<h2>Purpose of the Course</h2>
 <p>
 The primary purpose of this course was to develop familiarity with the field of <strong>Artificial Intelligence (AI)</strong>, 
 including its foundational concepts, theoretical frameworks, and real-world applications. The course introduced key AI 
@@ -16,9 +16,9 @@ and how it can be applied effectively in various domains, such as games and real
 
 <hr>
 
-<h2>📚 What I Learned from the Course</h2>
+<h2>What I Learned from the Course</h2>
 
-<h3>🧠 Theory</h3>
+<h3>Theory</h3>
 <ul>
   <li>Introduction to AI and its applications</li>
   <li>Types of AI: Narrow, General, Super</li>
@@ -31,7 +31,7 @@ and how it can be applied effectively in various domains, such as games and real
 
 <h3>⚙️ Algorithms Implemented</h3>
 
-<h4>🔍 Uninformed Search Algorithms:</h4>
+<h4>Uninformed Search Algorithms:</h4>
 <ul>
   <li>Breadth-First Search (BFS)</li>
   <li>Depth-First Search (DFS)</li>
@@ -40,14 +40,14 @@ and how it can be applied effectively in various domains, such as games and real
   <li>Bidirectional Search</li>
 </ul>
 
-<h4>🎯 Informed Search Algorithms:</h4>
+<h4>Informed Search Algorithms:</h4>
 <ul>
   <li>Best-First Search</li>
   <li>A* Algorithm</li>
   <li>Beam Search</li>
 </ul>
 
-<h4>🎮 Game Playing Algorithms:</h4>
+<h4>Game Playing Algorithms:</h4>
 <ul>
   <li>Minimax Algorithm</li>
   <li>Alpha-Beta Pruning</li>
@@ -59,10 +59,10 @@ and how it can be applied effectively in various domains, such as games and real
 
 <hr>
 
-<h2>📂 Repository Overview</h2>
+<h2>Repository Overview</h2>
 
 <div class="repo-section">
-  <h3>📁 AI-Games</h3>
+  <h3>AI-Games</h3>
   <ul>
     <li><strong>Chess:</strong> Human vs AI chess game built using Next.js and Minimax with Alpha-Beta pruning.</li>
     <li><strong>TicTacToe:</strong> Python-based unbeatable AI using the Minimax algorithm.</li>
@@ -72,12 +72,12 @@ and how it can be applied effectively in various domains, such as games and real
 </div>
 
 <div class="repo-section">
-  <h3>📁 AI-Tools-Exploration</h3>
+  <h3>AI-Tools-Exploration</h3>
   <p>Includes AI-generated course video and slides, with detailed notes on tools and processes used.</p>
 </div>
 
 <div class="repo-section">
-  <h3>📁 Algorithm-Implementation</h3>
+  <h3>Algorithm-Implementation</h3>
   <div class="subfolder">
     <strong>Uninformed Searches:</strong>
     <p>BFS, DFS, IDS, DLS, Bidirectional Search</p>
@@ -98,12 +98,12 @@ and how it can be applied effectively in various domains, such as games and real
 </div>
 
 
-<h3>📁 AI-Tools-Exploration</h3>
+<h3>AI-Tools-Exploration</h3>
 <p>AI-generated course video and slides, with documentation on tools and process.</p>
 
-<h3>📁 Algorithm-Implementation</h3>
+<h3>Algorithm-Implementation</h3>
 <p><strong>Contains all implemented AI algorithms, organized by type:</strong></p>
-<table>
+
   <tr>
     <th>Folder</th>
     <th>Description</th>
@@ -129,7 +129,6 @@ and how it can be applied effectively in various domains, such as games and real
     <td>Game tree search</td>
     <td>Minimax, Alpha-Beta Pruning</td>
   </tr>
-</table>
 <p><em>Each subfolder includes code, a detailed README (how it works, applications, complexity, examples).</em></p>
 
 <hr>
@@ -139,7 +138,7 @@ and how it can be applied effectively in various domains, such as games and real
 
 <hr>
 
-<h2>👨‍🏫 Course Supervisor</h2>
+<h2>Course Supervisor</h2>
   <tr>
     <td><strong>Course Taken By:</strong></td>
     <td>Razorshi Prozzwal Talukder</td>
