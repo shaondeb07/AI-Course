@@ -101,37 +101,6 @@ and how it can be applied effectively in various domains, such as games and real
 <h3>AI-Tools-Exploration</h3>
 <p>AI-generated course video and slides, with documentation on tools and process.</p>
 
-<h3>Algorithm-Implementation</h3>
-<p><strong>Contains all implemented AI algorithms, organized by type:</strong></p>
-
-  <tr>
-    <th>Folder</th>
-    <th>Description</th>
-    <th>Algorithms</th>
-  </tr>
-  <tr>
-    <td><code>uninformed-searches</code></td>
-    <td>Classic uninformed search algorithms</td>
-    <td>BFS, DFS, IDS, DLS, Bidirectional</td>
-  </tr>
-  <tr>
-    <td><code>informed-searches</code></td>
-    <td>Heuristic and best-first search algorithms</td>
-    <td>A*, AO*, Beam, etc.</td>
-  </tr>
-  <tr>
-    <td><code>local-searches</code></td>
-    <td>Local search methods</td>
-    <td>Hill Climbing, Beam Search</td>
-  </tr>
-  <tr>
-    <td><code>minimax-alphabetapruning</code></td>
-    <td>Game tree search</td>
-    <td>Minimax, Alpha-Beta Pruning</td>
-  </tr>
-<p><em>Each subfolder includes code, a detailed README (how it works, applications, complexity, examples).</em></p>
-
-<hr>
 
 <h2>⏱️ Duration of the Course</h2>
 <p>The total duration of this course was <strong>6 months</strong>.</p>
