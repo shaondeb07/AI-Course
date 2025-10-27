@@ -29,7 +29,7 @@ and how it can be applied effectively in various domains, such as games and real
   <li>Consistency in CSP</li>
 </ul>
 
-<h3>⚙️ Algorithms Implemented</h3>
+<h3>Algorithms Implemented</h3>
 
 <h4>Uninformed Search Algorithms:</h4>
 <ul>
