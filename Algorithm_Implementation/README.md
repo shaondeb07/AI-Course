@@ -102,7 +102,7 @@ and how it can be applied effectively in various domains, such as games and real
 <p>AI-generated course video and slides, with documentation on tools and process.</p>
 
 
-<h2>⏱️ Duration of the Course</h2>
+<h2>Duration of the Course</h2>
 <p>The total duration of this course was <strong>6 months</strong>.</p>
 
 <hr>
@@ -126,7 +126,7 @@ and how it can be applied effectively in various domains, such as games and real
 <hr>
 
 <p align="center">
-  <strong>🎓 Course Completed Successfully 🎓</strong>
+  <strong>Course Completed Successfully </strong>
 </p>
 
 </body>
