@@ -1,5 +1,5 @@
-#readme
-# 🎮 Connect Four with AI — Python + Pygame
+
+# 🎮 ##GAme 1, Connect Four with AI — Python + Pygame
 
 A strategic twist on the classic ##Connect Four color game## with a powerful AI opponent! Built using Python, Pygame, and NumPy.
 
@@ -59,10 +59,9 @@ Heuristic Evaluation:
 
 --------------
 
-Sure thing 😎 here’s a clean and professional `README.md` for your `chess.py` game — matches your Connect Four style but tailored for Chess + AI.
 
-````{"variant":"standard","title":"Chess Game with AI — README","id":"18724"}
-# ♟️ Chess Game with AI — Python + Pygame
+
+# ♟️ ##GAme 2## Chess Game with AI — Python + Pygame
 
 A modern and strategic version of **Chess** featuring an intelligent AI opponent!  
 Built using **Python**, **Pygame**, and **python-chess**, this game blends logic and design for an engaging play experience.
@@ -145,4 +144,88 @@ Increase the number `2` for deeper (smarter but slower) AI calculations.
 - **Alpha-Beta Pruning**
 
 ---
+
+
+
+# 🎮 ##GAme 3 Tic-Tac-Toe (AI Version) — Python + Tkinter + Minimax
+
+A simple yet powerful **Tic-Tac-Toe game** built with **Python and Tkinter**, featuring an **unbeatable AI opponent** using the **Minimax Algorithm**.  
+Play against the computer in a smooth and interactive GUI experience!
+
+---
+
+## 🧰 Requirements
+
+Install dependencies before running the game:
+
+```
+pip install tk
+```
+
+*(Tkinter usually comes pre-installed with Python, so you might already have it!)*
+
+---
+
+## 🚀 Features
+- 🎨 Interactive GUI built with **Tkinter**
+- 🧠 **AI opponent** powered by **Minimax algorithm**
+- 🔁 Automatic game restart after win/draw
+- ⚡ Instant move response (with a small delay for realism)
+- 🏆 Detects win, loss, or draw accurately
+
+---
+
+## 🕹️ How to Play
+1. Run the game using:
+   ```
+   python tic_tac_toe_ai.py
+   ```
+2. You play as **X**, the computer plays as **O**
+3. Click any empty square to make your move
+4. The AI will respond automatically
+5. Game ends when:
+   - You win 🎉  
+   - The AI wins 🤖  
+   - It’s a draw 😐  
+
+---
+
+## 🧠 How the AI Works
+The computer uses the **Minimax Algorithm**, which explores all possible game outcomes to find the **optimal move**.
+
+### 🔍 Algorithm Logic:
+- +1 → AI win  
+- -1 → Player win  
+-  0 → Draw  
+
+AI tries to **maximize** its score while minimizing yours — meaning it *never loses*. 😈
+
+---
+
+## 🧩 Key Components
+- **Tkinter** → GUI buttons and grid  
+- **Minimax** → Decision-making algorithm  
+- **Math** → Used for scoring and comparison  
+- **Messagebox** → Shows result popups  
+
+---
+
+## 🧠 Code Overview
+| Function | Description |
+|-----------|--------------|
+| `on_click(index)` | Handles user moves |
+| `computer_move()` | Calculates and plays AI move |
+| `minimax(depth, is_maximizing)` | Core AI logic |
+| `check_winner(player)` | Checks for win condition |
+| `reset_board()` | Resets game after round ends |
+
+---
+
+## 🧑‍💻 Author
+**Saykat Dev Shaon**  
+*Department of Computer Science & Engineering (CSE)*  
+Project for the **AI Course**
+
+---
+
 
