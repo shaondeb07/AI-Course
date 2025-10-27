@@ -1,89 +1,134 @@
-# AI-COURSE
-# 🤖 AI Course Summary – README
+<!DOCTYPE html>
+<html>
+<body>
 
-## 🎯 Purpose of the Course
+<h1 align="center">Artificial Intelligence Course</h1>
 
-This course introduced the fundamental concepts and practical applications of Artificial Intelligence (AI), focusing on both theoretical understanding and lab-based algorithm implementation. The goal was to equip students with conceptual clarity and practical coding experience using **C++** and **Python**.
+<hr>
 
----
+<h2>Purpose of the Course</h2>
+<p>
+The primary purpose of this course was to develop familiarity with the field of <strong>Artificial Intelligence (AI)</strong>, 
+including its foundational concepts, theoretical frameworks, and real-world applications. The course introduced key AI 
+terminologies, constraint satisfaction problems, and essential problem-solving strategies. It focused on how AI works 
+and how it can be applied effectively in various domains, such as games and real-life scenarios.
+</p>
 
-## 📘 What I Learned
+<hr>
 
-### 🧠 Theoretical Topics Covered:
+<h2>What I Learned from the Course</h2>
 
-- **Introduction to AI** and its real-world applications
-- **Types of AI**: Narrow AI, General AI, and Super AI
-- **Intelligent Agents**:
-  - Simple Reflex Agent  
-  - Model-Based Agent  
-  - Goal-Based Agent  
-  - Utility-Based Agent  
-- **Search Strategies**:
-  - *Uninformed Search*:
-    - Breadth-First Search (BFS)
-    - Depth-First Search (DFS)
-    - Iterative Deepening Search (IDS)
-    - Bidirectional Search
-    - Depth-Limited Search (DLS)
-  - *Informed (Heuristic) Search*:
-    - Heuristic Search
-    - Best-First Search
-    - AO* Algorithm
-    - Beam Search
-- **Game Playing in AI**:
-  - Minimax Algorithm
-  - Alpha-Beta Pruning
-- **Constraint Satisfaction Problems (CSP)**:
-  - Graph Coloring
-  - Branch and Bound Algorithm
-  - Consistency: Local, Path, k-, and Global
-- **Knowledge Representation and Reasoning**
-- **Uncertainty and Probabilistic Reasoning**:
-  - Bayesian Inference
-  - Fuzzy Logic
-- **Natural Language Processing (NLP)**
-- **Robotics and Machine Perception**
+<h3>Theory</h3>
+<ul>
+  <li>Introduction to AI and its applications</li>
+  <li>Types of AI: Narrow, General, Super</li>
+  <li>Intelligent Agents: Simple Reflex, Model-Based, Goal-Based, Utility-Based</li>
+  <li>Search Strategies (Uninformed & Informed)</li>
+  <li>Game Playing in AI</li>
+  <li>Constraint Satisfaction Problems (CSP)</li>
+  <li>Consistency in CSP</li>
+</ul>
 
----
+<h3>Algorithms Implemented</h3>
 
-## 🧪 Lab Tasks & Implemented Algorithms
+<h4>Uninformed Search Algorithms:</h4>
+<ul>
+  <li>Breadth-First Search (BFS)</li>
+  <li>Depth-First Search (DFS)</li>
+  <li>Iterative Deepening Search (IDS)</li>
+  <li>Depth-Limited Search (DLS)</li>
+  <li>Bidirectional Search</li>
+</ul>
 
-All core AI algorithms were implemented in **C++** and **Python** during lab sessions. The breakdown is as follows:
+<h4>Informed Search Algorithms:</h4>
+<ul>
+  <li>Best-First Search</li>
+  <li>A* Algorithm</li>
+  <li>Beam Search</li>
+</ul>
 
-| Chapter | Algorithms Implemented |
-|---------|--------------------------|
-| *3*     | BFS, DFS, IDS, DLS, Bidirectional Search |
-| *4*     | Heuristic Search, Best-First Search, AO* Algorithm |
-| *5*     | Beam Search |
-| *6*     | Minimax Algorithm, Alpha-Beta Pruning |
+<h4>Game Playing Algorithms:</h4>
+<ul>
+  <li>Minimax Algorithm</li>
+  <li>Alpha-Beta Pruning</li>
+</ul>
 
-### ✅ Game-Based AI Projects:
-- 🎮 **Tic Tac Toe AI** using Minimax (with GUI)
-- 🎮 **Connect Four AI**
-- ♟ **Simplified Chess AI** logic
+<p>
+<em>Implemented these algorithms in practical scenarios, especially in game-based AI systems like Chess, TicTacToe, and Snake.</em>
+</p>
 
-### ✅ Real-World Simulations:
-- 🤖 Decision-Making Agents
-- 🌐 State-Space Problem Solvers
+<hr>
 
----
+<h2>Repository Overview</h2>
 
-## ⏳ Course Duration
+<div class="repo-section">
+  <h3>AI-Games</h3>
+  <ul>
+    <li><strong>Chess:</strong> Human vs AI chess game built using Next.js and Minimax with Alpha-Beta pruning.</li>
+    <li><strong>TicTacToe:</strong> Python-based unbeatable AI using the Minimax algorithm.</li>
+    <li><strong>Snake Game:</strong> Python Snake game using Best-First Search for decision-making.</li>
+  </ul>
+  <p><em>Each subfolder includes code, explanation, and performance notes.</em></p>
+</div>
 
-**6 month**
+<div class="repo-section">
+  <h3>AI-Tools-Exploration</h3>
+  <p>Includes AI-generated course video and slides, with detailed notes on tools and processes used.</p>
+</div>
 
----
+<div class="repo-section">
+  <h3>Algorithm-Implementation</h3>
+  <div class="subfolder">
+    <strong>Uninformed Searches:</strong>
+    <p>BFS, DFS, IDS, DLS, Bidirectional Search</p>
+  </div>
+  <div class="subfolder">
+    <strong>Informed Searches:</strong>
+    <p>A*, AO*, Beam Search</p>
+  </div>
+  <div class="subfolder">
+    <strong>Local Searches:</strong>
+    <p>Hill Climbing, Beam Search</p>
+  </div>
+  <div class="subfolder">
+    <strong>Game Tree Searches:</strong>
+    <p>Minimax, Alpha-Beta Pruning</p>
+  </div>
+  <p><em>Each section includes explanations, applications, and code examples.</em></p>
+</div>
 
-## 👨‍🏫 Course Supervisor
 
-**Mr. Razorshi Prozzwal Talukder**  
-Lecturer  
-Department of CSE  
-North East University, Bangladesh
+<h3>AI-Tools-Exploration</h3>
+<p>AI-generated course video and slides, with documentation on tools and process.</p>
 
----
 
-## 📌 Notes
+<h2>Duration of the Course</h2>
+<p>The total duration of this course was <strong>6 months</strong>.</p>
 
-- This summary reflects both **academic theory** and **lab work** conducted throughout the course.
-- All programs were tested with various inputs to demonstrate correctness and efficiency.
+<hr>
+
+<h2>Course Supervisor</h2>
+  <tr>
+    <td><strong>Course Taken By:</strong></td>
+    <td>Razorshi Prozzwal Talukder</td>
+  </tr>
+  <br>
+  <tr>
+    <td><strong>Designation:</strong></td>
+    <td>Lecturer</td>
+  </tr>
+  <br>
+  <tr>
+    <td><strong>Institution:</strong></td>
+    <td>North East University Bangladesh</td>
+  </tr>
+
+<hr>
+
+<p align="center">
+  <strong>Course Completed Successfully </strong>
+</p>
+
+</body>
+</html>
+
